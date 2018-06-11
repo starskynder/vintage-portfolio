@@ -363,7 +363,9 @@
     font-family: 'Damion', cursive;
     font-size: 2em;
   }
-
+h2, h3 {
+  text-align: center;
+}
 /*----Headers-----*/
 header {
   display: flex;
@@ -374,7 +376,7 @@ header {
   margin: auto;
 }
   /*-----Main------*/
-  p {
+  p, span {
     font-size: 1.2em;
   }
 
