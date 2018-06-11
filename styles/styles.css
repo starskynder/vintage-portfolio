@@ -345,7 +345,8 @@
   /*---Body---*/
   body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    display: flex;
+    flex-flow: column wrap;
   }
 
   /* ----Headings------------*/
@@ -362,6 +363,28 @@
     font-family: 'Damion', cursive;
     font-size: 2em;
   }
+
+/*----Headers-----*/
+header {
+  display: flex;
+  flex-flow: column wrap;
+
+}
+.header-title {
+  margin: auto;
+}
+  /*-----Main------*/
   p {
     font-size: 1.2em;
   }
+
+.about, .portfolio, .myblog, .contact, #contact-form, #social-media {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 20px;
+}
+
+/*----Footer----*/
+#contact-form {
+  
+}
