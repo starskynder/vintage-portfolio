@@ -370,7 +370,8 @@ h2, h3 {
 header {
   display: flex;
   flex-flow: column wrap;
-
+  background-color: #8CC8C6;
+padding: 10px;
 }
 .header-title {
   margin: auto;
@@ -383,7 +384,21 @@ header {
 .about, .portfolio, .myblog, .contact, #contact-form, #social-media {
   display: flex;
   flex-flow: column wrap;
-  margin: 20px;
+  padding: 20px;
+}
+.about {
+  background-color: #C6DBD2;
+}
+
+.portfolio {
+  background-color: #F8ECC2;
+}
+
+.myblog {
+  background-color: #E65540;
+}
+.contact, #social-media {
+  background-color: #66A8A6;
 }
 
 /*----Footer----*/
