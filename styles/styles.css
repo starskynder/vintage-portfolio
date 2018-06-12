@@ -381,6 +381,12 @@ body {
   background-color: #8CC8C6;
 }
 
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* ----Headings------------*/
 
 h1 {
