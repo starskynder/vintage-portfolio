@@ -429,7 +429,57 @@ header {
   min-width: 100px;
   min-height: 100px;
   margin: auto;
+  margin-bottom: 10px;
 }
+/*----Slide-Show------------*/
+
+.carousel {
+  display: none;
+}
+
+#slideshow {
+  margin: 10px;
+  border: 10px solid white;
+  padding: 0;
+  border-radius: 10px;
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+#prev,
+#next {
+  cursor: pointer;
+  width: 10px;
+  z-index: 9999;
+  color: black;
+  position: absolute;
+  margin-top: -60px;
+  top: 50%;
+  font-size: 30px;
+  padding: 10px;
+  background-color: #fff;
+  font-weight: bold;
+}
+
+#prev {
+  border-radius: 0 60px 60px 0;
+  left: -5px;
+}
+
+#next {
+  border-radius: 60px 0 0 60px;
+  right: -5px;
+}
+
+.caption {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+  display: none;
+}
+
 
 /*--------Navigation--------*/
 
