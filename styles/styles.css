@@ -422,6 +422,7 @@ header {
 
 .header-title {
   margin: auto;
+  margin-bottom: 15px;
 }
 
 #header-robot {
