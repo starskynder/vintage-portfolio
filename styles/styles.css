@@ -438,7 +438,7 @@ header {
 }
 
 #slideshow {
-  margin: 10px;
+  margin:auto;
   border: 10px solid white;
   padding: 0;
   border-radius: 10px;
@@ -446,6 +446,7 @@ header {
   background-color: #fff;
   display: flex;
   flex-flow: column wrap;
+  max-width: 800px;
 }
 
 #prev,
