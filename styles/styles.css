@@ -381,7 +381,6 @@ body {
   background-color: #8CC8C6;
 }
 
-
 img {
   max-width: 100%;
   height: auto;
@@ -432,6 +431,7 @@ header {
   margin: auto;
   margin-bottom: 10px;
 }
+
 /*----Slide-Show------------*/
 
 .carousel {
@@ -439,7 +439,8 @@ header {
 }
 
 #slideshow {
-  margin:auto;
+  align-self: center;
+  margin: 10px;
   border: 10px solid white;
   padding: 0;
   border-radius: 10px;
@@ -481,7 +482,6 @@ header {
   padding: 10px;
   display: none;
 }
-
 
 /*--------Navigation--------*/
 
