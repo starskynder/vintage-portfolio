@@ -414,9 +414,8 @@ header {
   display: flex;
   flex-flow: column wrap;
   background-color: #8CC8C6;
-  margin-bottom: 10px;
   padding-bottom: 10px;
-  border-bottom: 3px dashed #F8ECC2;
+  border-bottom: 17px dashed #C6DBD2;
 }
 
 .header-title {
@@ -537,6 +536,7 @@ span {
 
 .about {
   background-color: #C6DBD2;
+  border-bottom: 17px dashed #F8ECC2;
 }
 
 .portfolio {
@@ -544,6 +544,7 @@ span {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
+  border-bottom: 17px dashed #e97462;
 }
 
 .portfolio-box {
@@ -573,14 +574,16 @@ span {
   font-family: 'Damion', cursive;
   transition: all .2s ease-in-out;
 }
+
 .portfolio-box:focus .portfolio-caption,
-.portfolio-box:hover .portfolio-caption{
-transform: translate(0, -5px);
-color: #e97462;
+.portfolio-box:hover .portfolio-caption {
+  transform: translate(0, -5px);
+  color: #e97462;
 }
 
 .myblog {
   background-color: #e97462;
+  border-bottom: 17px dashed #5F180E;
 }
 
 .contact,
@@ -598,13 +601,15 @@ color: #e97462;
   display: block;
   transition: all .2s ease-in-out;
 }
+
 .robot-head:focus,
 .robot-head:hover {
   transform: translate(-5px, -5px);
   box-shadow: 6px 6px 2px rgb(161, 179, 171);
-
 }
+
 /*----Footer----*/
+
 .contact-subtitle {
   font-family: 'Damion', cursive;
   font-size: 1.8em;
@@ -612,14 +617,14 @@ color: #e97462;
   margin: auto;
   max-width: 300px;
   text-align: center;
- 
 }
+
 .contact-subtitle:before,
-.contact-subtitle:after
- {
+.contact-subtitle:after {
   content: " • ";
   color: #fff;
 }
+
 #contact-form {
   display: flex;
   flex-flow: column wrap;
@@ -653,7 +658,7 @@ textarea {
   border-radius: 50%;
   background-color: #fff;
   -moz-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;  
+  transition: all 0.2s ease-in-out;
 }
 
 .social-media_icon:focus,
