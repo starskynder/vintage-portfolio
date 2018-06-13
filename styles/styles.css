@@ -563,7 +563,19 @@ span {
 
 /*----Footer----*/
 
-#contact-form {}
+#contact-form {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: space-between;
+  font-size: 1.2em;
+}
+
+.contact-form_input,
+textarea {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
 
 .social-media_icons {
   text-align: center;
