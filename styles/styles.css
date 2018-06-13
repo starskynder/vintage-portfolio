@@ -600,6 +600,9 @@ span {
   max-width: 300px;
 }
 
+.blog-post h3 {
+  text-align: left;
+}
 .contact,
 #social-media {
   background-color: #5F180E;
