@@ -554,7 +554,7 @@ span {
   align-content: center;
   margin: auto;
   border: 6px solid #fff;
-  border-bottom: 25px solid white;
+  border-bottom: 30px solid white;
   margin-bottom: 10px;
   background-color: #fff;
   border-radius: 5px;
@@ -563,7 +563,7 @@ span {
 
 .portfolio-caption {
   position: absolute;
-  bottom: -25px;
+  bottom: -30px;
   background-color: #fff;
   border-radius: 50%;
   padding: 10px;
@@ -571,6 +571,12 @@ span {
   left: 100px;
   font-size: 1.6em;
   font-family: 'Damion', cursive;
+  transition: all .2s ease-in-out;
+}
+.portfolio-box:focus .portfolio-caption,
+.portfolio-box:hover .portfolio-caption{
+transform: translate(0, -5px);
+color: #e97462;
 }
 
 .myblog {
