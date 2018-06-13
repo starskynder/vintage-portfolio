@@ -560,8 +560,14 @@ span {
   border-radius: 100%;
   margin: auto;
   display: block;
+  transition: all .2s ease-in-out;
 }
+.robot-head:focus,
+.robot-head:hover {
+  transform: translate(-5px, -5px);
+  box-shadow: 6px 6px 2px rgb(161, 179, 171);
 
+}
 /*----Footer----*/
 
 #contact-form {
