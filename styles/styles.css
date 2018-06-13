@@ -605,7 +605,21 @@ color: #e97462;
 
 }
 /*----Footer----*/
-
+.contact-subtitle {
+  font-family: 'Damion', cursive;
+  font-size: 1.8em;
+  display: block;
+  margin: auto;
+  max-width: 300px;
+  text-align: center;
+ 
+}
+.contact-subtitle:before,
+.contact-subtitle:after
+ {
+  content: " • ";
+  color: #fff;
+}
 #contact-form {
   display: flex;
   flex-flow: column wrap;
