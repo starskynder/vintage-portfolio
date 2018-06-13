@@ -593,16 +593,39 @@ span {
   border-bottom: 17px dashed #5F180E;
 }
 
-
 .blog-post_images {
   border: 2px solid #fff;
   border-radius: 5px;
   max-width: 300px;
 }
 
+.blog-post {
+  margin-bottom: 40px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
 .blog-post h3 {
   text-align: left;
+  color: #5F180E;
 }
+
+.blog-post_date {
+  font-weight: bold;
+  border-bottom: 1px solid #5F180E;
+  color: #5F180E;
+}
+
+.blog-post_button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+ margin-left: auto;
+ background-color: #5F180E;
+ color: #fff;
+  max-width: 40%;
+}
+
 .contact,
 #social-media {
   background-color: #5F180E;
