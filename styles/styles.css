@@ -422,6 +422,7 @@ header {
 .header-title {
   margin: auto;
   margin-bottom: 15px;
+  text-shadow: 0 3px 3px #608887;
 }
 
 #header-robot {
