@@ -593,6 +593,13 @@ span {
   border-bottom: 17px dashed #5F180E;
 }
 
+
+.blog-post_images {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  max-width: 300px;
+}
+
 .contact,
 #social-media {
   background-color: #5F180E;
