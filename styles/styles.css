@@ -575,6 +575,7 @@ textarea {
   margin: 10px;
   padding: 5px;
   border-radius: 5px;
+  border: none;
 }
 
 .social-media_icons {
