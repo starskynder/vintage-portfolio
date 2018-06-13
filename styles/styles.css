@@ -564,3 +564,22 @@ span {
 /*----Footer----*/
 
 #contact-form {}
+
+.social-media_icons {
+  text-align: center;
+}
+
+.social-media_icon {
+  font-size: 2.5em;
+  padding: 10px;
+  margin: 5px;
+  color: #5F180E;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  vertical-align: midlle;
+  line-height: 40px;
+  border: 6px double #5F180E;
+  border-radius: 50%;
+  background-color: #fff;
+}
