@@ -448,7 +448,7 @@ h3 {
   min-height: 100px;
   margin: auto;
   margin-bottom: 10px;
-  max-width: 200px;
+  max-width: 150px;
 }
 
 /*----Slide-Show------------*/
@@ -524,7 +524,7 @@ h3 {
   flex-flow: row wrap;
   list-style-type: none;
   padding: 10px;
-  background-color: #e97462;
+  background-color: #A42E18;
   margin: 0;
   margin-bottom: 20px;
 }
@@ -541,11 +541,13 @@ h3 {
 }
 
 .nav-link a:visited {
-  color: #F8ECC2;
+  color: rgb(219, 218, 218);
 }
 
 .nav-link a:hover {
   border-bottom: 2px dotted #e97462;
+  color: #e97462;
+  border-bottom: none;
 }
 
 /*-----Main------*/
@@ -843,7 +845,13 @@ textarea {
   .portfolio-box {
     max-width: 400px;
   }
-  .portfolio-caption {}
+  #header-robot {
+    margin-top: -80px;
+  }
+  .nav-link {
+    font-size: 1.7em;
+    font-family: 'Damion', cursive;
+  }
 }
 
 @media (min-width: 1200px) {
