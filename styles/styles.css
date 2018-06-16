@@ -740,7 +740,11 @@ span {
   color: #fff;
 }
 
-
+.blog-post_button:focus,
+.blog-post_button:hover {
+  background-color: #8b2315;
+  box-shadow: 3px 3px 3px #5F180E;
+}
 
 
 
