@@ -576,6 +576,11 @@ span {
   border-bottom: 17px dashed #F8ECC2;
 }
 
+.about-boxes {
+  display: flex;
+  flex-flow: column wrap;
+}
+
 .about-box {
   border: 6px double #fff;
   border-radius: 10px;
@@ -583,6 +588,7 @@ span {
   margin: 10px;
   display: flex;
   flex-flow: column wrap;
+  align-items: center;
 }
 
 .portfolio {
@@ -597,7 +603,9 @@ span {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  justify-content: center;
   border-bottom: 17px dashed #e97462;
+  padding-bottom: 40px;
 }
 
 .portfolio-box {
@@ -611,24 +619,22 @@ span {
   -ms-flex-flow: column wrap;
   flex-flow: column wrap;
   -ms-flex-line-pack: center;
-  align-content: center;
-  margin: auto;
+  margin: 20px;
   border: 6px solid #fff;
-  border-bottom: 30px solid white;
-  margin-bottom: 10px;
   background-color: #fff;
   border-radius: 5px;
   text-align: center;
 }
 
 .portfolio-caption {
-  position: absolute;
-  bottom: -30px;
+  position: relative;
+  top: -20px;
   background-color: #fff;
   border-radius: 50%;
   padding: 10px;
   width: 100px;
-  left: 100px;
+  margin: 0 auto;
+  display: block;
   font-size: 1.6em;
   font-family: 'Damion', cursive;
   -webkit-transition: all .2s ease-in-out;
@@ -661,7 +667,12 @@ span {
 .blog-post_images {
   border: 2px solid #fff;
   border-radius: 5px;
-  max-width: 260px;
+  max-width: 230px;
+}
+
+.blog-post_content {
+  display: flex;
+  flex-flow: column wrap;
 }
 
 .blog-post h3 {
@@ -671,7 +682,7 @@ span {
 
 .blog-post_date {
   font-weight: bold;
-  /* border-bottom: 1px solid #5F180E; */
+  border-bottom: 1px solid #5F180E;
   color: #5F180E;
 }
 
@@ -682,13 +693,13 @@ span {
   margin-left: auto;
   background-color: #5F180E;
   color: #fff;
-  max-width: 40%;
 }
 
 .contact,
 #social-media {
   background-color: #5F180E;
   color: white;
+  justify-content: center;
 }
 
 .robot-head {
@@ -696,7 +707,7 @@ span {
   padding: 30px;
   border: 13px double #fff;
   border-radius: 100%;
-  margin: auto;
+  /* margin: auto; */
   display: block;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
@@ -727,7 +738,7 @@ span {
   color: #fff;
 }
 
-#contact-form {
+.contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -767,10 +778,10 @@ textarea {
   margin: 5px;
   color: #5F180E;
   display: inline-block;
-  width: 40px;
-  height: 40px;
+  width: 55px;
+  height: 55px;
   vertical-align: midlle;
-  line-height: 40px;
+  line-height: 55px;
   border: 6px double #5F180E;
   border-radius: 50%;
   background-color: #fff;
@@ -784,4 +795,62 @@ textarea {
   transform: translate(-5px, -5px);
   -webkit-box-shadow: 6px 6px 2px rgb(61, 16, 9);
   box-shadow: 6px 6px 2px rgb(61, 16, 9);
+}
+
+/*---Media Queries---*/
+
+@media (min-width: 600px) {
+  .blog-post_images {
+    min-width: 400px;
+  }
+  .about {
+    flex-flow: row wrap;
+  }
+  .about-box {
+    flex: 1;
+    align-items: center;
+  }
+  .portfolio {
+    flex-flow: row wrap;
+  }
+  .portfolio h2,
+  .about h2 {
+    flex: 100%;
+  }
+  .portfolio-box,
+    {
+    flex: 1;
+    max-width: auto;
+  }
+}
+
+@media (min-width:700px) {
+  #contact-form {
+    margin: auto;
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 900px) {
+  .blog-post {
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 10px;
+  }
+  .blog-post_content {
+    margin-left: 20px;
+  }
+  .portfolio-box {
+    max-width: 400px;
+  }
+  .portfolio-caption {}
+}
+
+@media (min-width: 1200px) {
+  #myblog {
+    align-items: center;
+  }
+  .blog-post {
+    max-width: 1200px;
+  }
 }
