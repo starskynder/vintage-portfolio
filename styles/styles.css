@@ -689,12 +689,12 @@ span {
   color: #e97462;
 }
 
+/*--------------My Blog--------------*/
+
 #myblog {
   background-color: #e97462;
   border-bottom: 17px dashed #5F180E;
 }
-
-/*--------------My Blog--------------*/
 
 .blog-post {
   margin-bottom: 40px;
@@ -747,7 +747,7 @@ span {
 .blog-post_button:hover {
   background-color: #8b2315;
   -webkit-box-shadow: 3px 3px 3px #5F180E;
-          box-shadow: 3px 3px 3px #5F180E;
+  box-shadow: 3px 3px 3px #5F180E;
 }
 
 /*----Footer----*/
@@ -809,7 +809,7 @@ textarea {
   background-color: #af584a;
   color: #fff;
   -webkit-box-shadow: 6px 6px 6px #310c08;
-          box-shadow: 6px 6px 6px #310c08;
+  box-shadow: 6px 6px 6px #310c08;
 }
 
 .social-media_icons {
@@ -859,31 +859,32 @@ textarea {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
   background-color: #5F180E;
   padding: 10px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.credits-section {
-  padding: 30px 10px;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
   color: #fff;
 }
 
-.credits-section a {
-  padding: 0 5px;
+.credits-section a:link {
+  display: inline-block;
+  padding-left: 5px;
   text-decoration: none;
-  color: #e97462;
-  border-bottom: 2px dotted #e97462;
+  color: #F5B0A3;
+  border-bottom: 2px dotted #F5B0A3;
 }
 
 .credits-section a:focus,
 .credits-section a:hover {
   border-bottom: none;
   color: #F8ECC2;
+}
+
+.credits-section a:visited {
+  color: #C6DBD2;
+  border-bottom: 1px solid #C6DBD2;
 }
 
 /*---Media Queries---*/
